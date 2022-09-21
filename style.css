@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  color: black;
+  font-size: 270%;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+.welcome-image {
+  background-image: url("images/welcome-page.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: absolute;
+}
+
+.welcome-message {
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  margin-top: 55%;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.welcome-message-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-message-2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(114, 189, 114);
+  font-weight: bold;
+}
+
+.summery {
+  margin: 2rem;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  font-size: 28px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 45%;
+}
+
+#twitter {
+  padding: 15px;
+}
+
+#in {
+  padding: 15px;
+}
+
+#medium {
+  padding: 15px;
+}
+
+#github {
+  padding: 15px;
+}
+
+#angellist {
+  padding: 15px;
+}
+
+#down-arrow {
+  display: flex;
+  margin: 10vw;
+  justify-content: center;
+}
+
+.projects {
+  margin-top: 120vh;
+}
