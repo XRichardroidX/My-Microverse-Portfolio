@@ -3,13 +3,21 @@
   margin: 0;
 }
 
-.head {
+header {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
   color: black;
   font-size: 270%;
   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+.welcome {
+  text-decoration: none;
+  color: black;
+  height: 90px;
+  width: 28px;
+  font-size: 20px;
 }
 
 .welcome-image {
@@ -21,36 +29,43 @@
 }
 
 .welcome-message {
-  font-size: 60px;
+  font-size: 40px;
   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-  margin-top: 55%;
+  margin-top: 21%;
   padding-left: 10vw;
   padding-right: 10vw;
+  line-height: 70px;
 }
 
-.welcome-message-1 {
-  display: flex;
-  justify-content: center;
+h1 {
+  font-weight: 700;
+  padding-left: 10%;
+  text-align: center;
 }
 
-.welcome-message-2 {
-  display: flex;
-  justify-content: center;
-  color: rgb(114, 189, 114);
-  font-weight: bold;
+h2 {
+  text-align: center;
+  color: #36b37e;
+  font-weight: 700;
+  padding-left: 10%;
 }
 
-.summery {
+h3 {
+  text-align: center;
   margin: 2rem;
   padding-left: 10vh;
   padding-right: 10vh;
-  font-size: 28px;
+  font-weight: 400;
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  line-height: 28px;
 }
 
 .social-media {
   display: flex;
   justify-content: center;
-  margin-top: 45%;
+  margin-top: 10%;
+  text-decoration: none;
 }
 
 #twitter {
