@@ -54,7 +54,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/XRichardroidX/My-Microverse-Portfolio/issues).
 
  ## Show your support
 
