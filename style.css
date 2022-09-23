@@ -100,7 +100,7 @@ h3 {
   justify-content: center;
 }
 
-.all-project {
+.all-projects {
   display: grid;
   grid-template-rows: 120px;
   justify-content: center;
