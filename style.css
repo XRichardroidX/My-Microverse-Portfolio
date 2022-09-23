@@ -67,7 +67,7 @@ h3 {
   margin-top: 10%;
   text-decoration: none;
   list-style-type: none;
-  }
+}
 
 #twitter {
   padding: 15px;
@@ -169,12 +169,12 @@ h3 {
   position: absolute;
   margin-top: 20px;
   gap: 10px;
-  left: calc(50% - 122px/2 + 0.5px);
+  left: calc(50% - 122px / 2 + 0.5px);
   width: 122px;
   height: 10px;
   padding: 12px;
   color: white;
-  background-color: #36B37F;
+  background-color: #36b37f;
   bottom: 8;
   user-select: none;
 }
@@ -187,11 +187,11 @@ h3 {
   position: absolute;
   margin-top: 10px;
   gap: 10px;
-  left: calc(50% - 122px/2 + 0.5px);
+  left: calc(50% - 122px / 2 + 0.5px);
   width: 122px;
   height: 10px;
   padding: 12px;
-  color: #36B37F;
+  color: #36b37f;
   background-color: white;
   bottom: 8;
   user-select: none;
@@ -205,21 +205,21 @@ h3 {
   position: absolute;
   margin-top: 10px;
   gap: 10px;
-  left: calc(50% - 122px/2 + 0.5px);
+  left: calc(50% - 122px / 2 + 0.5px);
   width: 122px;
   height: 10px;
   padding: 12px;
-  color: #ffffff;
+  color: #fff;
   background-color: rgb(0, 0, 0);
   bottom: 8;
   user-select: none;
 }
 
 .about-me-section {
- color: black;
- padding: 15%;
- text-align: center;
- font-family: Arial, sans-serif;
+  color: black;
+  padding: 15%;
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 .about-me {
@@ -230,10 +230,10 @@ h3 {
 }
 
 .group-name {
- display: grid;
- justify-content: center;
- align-items: space-around;
- margin: 5%;
+  display: grid;
+  justify-content: center;
+  align-items: space-around;
+  margin: 5%;
 }
 
 .knowledge {
@@ -275,7 +275,7 @@ h3 {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #36B37E;
+  color: #36b37e;
   border-radius: 10px;
   margin: 2%;
   padding: 5%;
