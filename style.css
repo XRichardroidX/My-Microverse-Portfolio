@@ -291,3 +291,7 @@ h3 {
   padding: 5%;
   height: 20px;
 }
+
+.languages .language a {
+  color: #36b37e;
+}
