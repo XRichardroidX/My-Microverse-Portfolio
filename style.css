@@ -280,7 +280,8 @@ h3 {
 }
 
 .form {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 24px;
 }
