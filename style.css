@@ -28,7 +28,7 @@ a {
   font-family: "Franklin Gothic Medium", Arial, sans-serif;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   .mobile-header {
     display: none;
   }
@@ -77,9 +77,21 @@ a {
 }
 
 h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
   font-weight: 700;
   padding-left: 10%;
   text-align: center;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100px;
+  }
+
+  to {
+    margin-top: 0;
+  }
 }
 
 h2 {
@@ -87,6 +99,11 @@ h2 {
   color: #36b37e;
   font-weight: 700;
   padding-left: 0%;
+  transition: 0.5s;
+}
+
+h2:hover {
+  color: gold;
 }
 
 h3 {
@@ -132,7 +149,8 @@ h3 {
   .welcome-image {
     background-image: url("images/welcome-for-desktop.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100vw;
+    width: 100vw;
   }
 
   .welcome {
@@ -155,7 +173,6 @@ h3 {
 
   h1 {
     padding: 160px 50px 15px 50px;
-    margin-top: 12%;
     font-weight: 700;
     text-align: center;
   }
@@ -220,9 +237,14 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: end;
-  margin: 5% 8% 5% 6%;
+  margin: 5% 8% -8% 6%;
   padding: 2rem;
   width: 400px;
+  transition: 0.5s;
+}
+
+.project:hover {
+  margin: 5% 8% 5% 6%;
 }
 
 .information {
