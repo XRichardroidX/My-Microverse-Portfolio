@@ -324,14 +324,14 @@ h3 {
   color: black;
   padding: 15%;
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
 }
 
 .about-me-section p {
   color: black;
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -377,7 +377,7 @@ h3 {
 .technology-text {
   display: flex;
   justify-content: center;
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   padding-top: 35%;
   font-size: 30px;
   font-weight: 700;
@@ -387,7 +387,7 @@ h3 {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   padding-top: 15%;
 }
 
@@ -440,7 +440,7 @@ h3 {
 .contact-form h2 {
   font-weight: 700;
   font-size: 40px;
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   line-height: 52px;
   text-align: center;
@@ -565,7 +565,7 @@ hr {
     margin-left: -12vw;
     margin-right: -108px;
     font-style: normal;
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
