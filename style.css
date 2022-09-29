@@ -228,15 +228,15 @@ h3 {
 .information {
   background-color: white;
   position: absolute;
-  border-radius: 10px;
+  border-radius: 8px;
   height: 230px;
-  width: 265px;
-  margin-bottom: 8px;
+  width: 270px;
+  margin-bottom: 4px;
 }
 
 .abc {
   position: relative;
-  font-family: Arial, sans-serif;
+  font-family: normal;
   text-align: center;
   padding: 10%;
   font-weight: 600;
@@ -276,8 +276,8 @@ h3 {
   margin-top: 20px;
   gap: 10px;
   left: calc(50% - 122px / 2 + 0.5px);
-  width: 122px;
-  height: 10px;
+  width: 118px;
+  height: 15px;
   padding: 12px;
   color: white;
   background-color: #36b37f;
@@ -325,6 +325,17 @@ h3 {
   padding: 15%;
   text-align: center;
   font-family: Arial, sans-serif;
+  font-style: normal;
+}
+
+.about-me-section p {
+  color: black;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
 }
 
 .about-me {
@@ -342,8 +353,8 @@ h3 {
 .group-name {
   display: flex;
   justify-content: center;
-  margin: 5vw 6vw 5vw 15vw;
-  width: 400px;
+  margin: 5vw 6vw 5vw 12vw;
+  min-width: 380px;
 }
 
 .knowledge {
@@ -405,7 +416,7 @@ h3 {
     grid-template-columns: 10px 10px 10px;
     justify-content: center;
     grid-template-rows: auto;
-    column-gap: 38%;
+    column-gap: 35%;
   }
 
   .group-name {
@@ -414,7 +425,7 @@ h3 {
 }
 
 .contact-section {
-  padding-top: 164px;
+  padding-top: 110px;
   display: grid;
   justify-content: center;
 }
@@ -477,14 +488,13 @@ form {
 }
 
 .btn {
-  margin: 35px 0 25px 0;
+  margin: 35px 0 25px 12%;
   width: 129px;
   height: 48px;
   background: #36b37f;
   border-radius: 4px;
   border-color: #36b37f;
   font-style: normal;
-  margin-left: 6%;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -551,7 +561,7 @@ hr {
   .contact-form h2 {
     margin-top: -58px;
     margin-bottom: 58px;
-    margin-left: -15vw;
+    margin-left: -12vw;
     margin-right: -108px;
     font-style: normal;
     font-weight: 700;
@@ -623,8 +633,8 @@ hr {
 
   hr {
     display: block;
-    margin: 10% -435px 12% -435px;
-    width: 1000vw;
+    margin: 10% 485px 12% -380px;
+    width: 1505px;
   }
 
   .contact-section .social-media {
