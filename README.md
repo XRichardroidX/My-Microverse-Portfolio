@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Hello Microverse
-> This is my Microverse portfolio website which was built using HTML and CSS with Linters for error detection.
+> This is my Microverse portfolio website which was built using HTML and CSS with Linters for error detection, This project is more specific to the desktop version using media query for responsiveness.
 
 
 ## Built With
  
-  HTML & CSS
+  HTML5 & CSS3
   
   Using Linters
 <!-- ## Live Demo (if available)
