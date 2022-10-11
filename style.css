@@ -30,6 +30,11 @@ a {
   font-size: 270%;
 }
 
+.mobile-headerr {
+  border-radius: 0 0 30px 30px;
+  box-shadow: 1px 4px 12px;
+}
+
 .welcome {
   font-size: 27px;
   color: black;
@@ -82,7 +87,7 @@ a {
 .header-itemsr,
 .headerr a {
   visibility: visible;
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-family: 'Inter', sans-serif;
   background-color: #fff;
   color: rgb(0, 0, 0);
