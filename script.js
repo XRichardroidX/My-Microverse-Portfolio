@@ -39,3 +39,69 @@ function OptionClick(){
       z3.className = 'header';
       Body.className = 'bd';
 }
+
+function WindowPopUp(){
+   let Body = document.getElementById('my-pop-up-clear');
+   let WindowPopUp = document.getElementById('my-pop-up-background');
+   let mobileButtons = document.getElementById('my-buttons');
+   let desktopButtons = document.getElementById('my-D-buttons');
+   let mobilePopUpImage = document.getElementById('my-pop-up-image');
+   let DesktopPopUpImage = document.getElementById('D-my-pop-up-image');
+   let mobileClick = document.getElementById('my-click');
+   let desktopClick = document.getElementById('my-D-click');
+
+   if(window.innerWidth <= 768){
+      if(Body.className === 'pop-up'){
+         Body.className = 'pop-up-clear';
+         WindowPopUp.className = 'pop-up-background';
+
+         mobileButtons.className = 'buttons';
+         desktopButtons.className = 'D-buttons-clear';
+
+         mobilePopUpImage.className = 'pop-up-image';
+         DesktopPopUpImage.className = 'D-pop-up-image-clear';
+
+         mobileClick.className = 'click';
+         desktopClick.className = 'D-click-clear';
+      }else{
+         Body.className = 'pop-up';
+         WindowPopUp.className = 'pop-up-background-clear';
+
+         mobileButtons.className = 'buttons-clear';
+         desktopButtons.className = 'D-buttons-clear';
+
+         mobilePopUpImage.className = 'pop-up-image-clear';
+         DesktopPopUpImage.className = 'D-pop-up-image-clear';
+
+         mobileClick.className = 'click-clear';
+         desktopClick.className = 'D-click-clear';
+      }
+   }
+   else{
+      if(Body.className === 'pop-up'){
+         Body.className = 'pop-up-clear';
+         WindowPopUp.className = 'pop-up-background';
+
+         mobileButtons.className = 'buttons-clear';
+         desktopButtons.className = 'D-buttons';
+
+         mobilePopUpImage.className = 'pop-up-image-clear';
+         DesktopPopUpImage.className = 'D-pop-up-image';
+
+         mobileClick.className = 'click-clear';
+         desktopClick.className = 'D-click';
+      }else{
+         Body.className = 'pop-up';
+         WindowPopUp.className = 'pop-up-background-clear';
+
+         mobileButtons.className = 'buttons-clear';
+         desktopButtons.className = 'D-buttons-clear';
+
+         mobilePopUpImage.className = 'pop-up-image-clear';
+         DesktopPopUpImage.className = 'D-pop-up-image-clear';
+
+         mobileClick.className = 'click-clear';
+         desktopClick.className = 'D-click-clear';
+      }
+   }
+}
