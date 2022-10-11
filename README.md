@@ -6,12 +6,15 @@
 
 ## Built With
  
-  HTML5 & CSS3
+  HTML5, CSS3 & JavaScript
   
   Using Linters
 
  ## Live Demo 
 
+<center><img title="Mobile" height="250" src="images/Mobile.png"></center>
+<center><img title="Desktop" height="250" src="images/Desktop.png"></center>
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 [Live Demo Link](https://xrichardroidx.github.io/My-Microverse-Portfolio/)
  -->
 

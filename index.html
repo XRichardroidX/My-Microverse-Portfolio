@@ -7,31 +7,43 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="bd" id="my-bd">
+    <script src="script.js"></script>
     <div id="body">
-      <header class="mobile-header">
+      <header class="mobile-header" id="my-mobile-head">
         <a href="#" class="welcome">welcome</a>
-        <nav>
-          <img src="images/mobile-menu.png" alt="Menu bar" height="24px" />
+        <nav class="header-items" id="my-header-items">
+          <ul>
+            <li class="header" id="my-header1">
+              <a onclick="OptionClick()" href="#my-all-projects">Portfolio</a>
+            </li>
+            <li class="header" id="my-header2">
+              <a onclick="OptionClick()" href="#my-about-me-section">About</a>
+            </li>
+            <li class="header" id="my-header3">
+              <a onclick="OptionClick()" href="#my-contact-section">Contact</a>
+            </li>
+          </ul>
         </nav>
+        <a class="menu" href="#" onclick="ResponsiveMenuForMobile()"></a>
       </header>
       <header class="desktop-header">
         <nav class="header-items">
-          <ul>
+          <ul class="nav-bar">
             <li>
-              <a href="">Portfolio</a>
+              <a href="#my-all-projects">Portfolio</a>
             </li>
             <li>
-              <a href="">About</a>
+              <a href="#my-about-me-section">About</a>
             </li>
             <li>
-              <a href="">Contact</a>
+              <a href="#my-contact-section">Contact</a>
             </li>
           </ul>
         </nav>
       </header>
       <!-- Welcome page -->
-      <section class="welcome-image">
+      <section class="welcome-image" id="my-welcome-image">
         <!-- Welcome message -->
         <div class="welcome-message">
           <h1>Hey there. I'm Richard</h1>
@@ -80,7 +92,7 @@
       <!-- End of Social Media -->
       <!-- End of welcome page -->
       <section>
-        <div class="all-projects">
+        <div class="all-projects" id="my-all-projects">
           <div id="down-arrow">
             <img class="arrow" src="images/down-arrow.png" alt="down-arrow"">
           </div>
@@ -257,7 +269,7 @@
       </section>
       <!-- This is the end of the My Projects section-->
       <!-- This is the about me section -->
-      <section class="about-me-section">
+      <section class="about-me-section" id="my-about-me-section">
         <h2 class="about-me">About me</h2>
         <p>
           I can help you build a product , feature or website Look through some
@@ -345,7 +357,9 @@
           </div>
         </div>
       </section>
-      <section class="contact-section">
+      <!-- This is the end of skills section-->
+      <!--This is the contact form section-->
+      <section class="contact-section" id="my-contact-section">
         <div class="contact-form">
           <h2>
             I'm always interested in hearing about new projects, so if you'd
