@@ -26,10 +26,14 @@ a {
 .mobile-header {
   display: flex;
   justify-content: space-between;
-  padding: 30px 10px 0 10px;
-  color: black;
+  padding: 20px 10px 0 10px;
   font-size: 270%;
-  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+}
+
+.welcome {
+  font-size: 27px;
+  color: black;
+  font-family: "Inter", sans-serif;
 }
 
 .mobile-header .menu {
