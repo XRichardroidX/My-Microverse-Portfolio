@@ -4,7 +4,7 @@ function ResponsiveMenuForMobile(){
    let z1 = document.getElementById('my-header1');
    let z2 = document.getElementById('my-header2');
    let z3 = document.getElementById('my-header3');
-   let B = document.getElementById('my-bd');
+   let Body = document.getElementById('my-bd');
 
    if(x.className === 'mobile-header' && y.className === 'header-items'){
     mobilehead.className = 'mobile-headerr';
@@ -12,7 +12,7 @@ function ResponsiveMenuForMobile(){
     z1.className = 'headerr';
     z2.className = 'headerr';
     z3.className = 'headerr';
-    B.className = 'bdr';
+    Body.className = 'bdr';
    }
    else{
     mobilehead.className = 'mobile-header';
@@ -20,7 +20,7 @@ function ResponsiveMenuForMobile(){
     z1.className = 'header';
     z2.className = 'header';
     z3.className = 'header';
-    B.className = 'bd';
+    Body.className = 'bd';
    }
 }
 
@@ -30,12 +30,12 @@ function OptionClick(){
    let z1 = document.getElementById('my-header1');
    let z2 = document.getElementById('my-header2');
    let z3 = document.getElementById('my-header3');
-   let B = document.getElementById('my-bd');
+   let Body = document.getElementById('my-bd');
    
       mobilehead.className = 'mobile-header';
       items.className = 'header-items';
       z1.className = 'header';
       z2.className = 'header';
       z3.className = 'header';
-      B.className = 'bd';
+      Body.className = 'bd';
 }
