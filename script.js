@@ -6,7 +6,7 @@ function ResponsiveMenuForMobile(){
    let z3 = document.getElementById('my-header3');
    let Body = document.getElementById('my-bd');
 
-   if(x.className === 'mobile-header' && y.className === 'header-items'){
+   if(mobilehead.className === 'mobile-header' && items.className === 'header-items'){
     mobilehead.className = 'mobile-headerr';
     items.className = 'header-itemsr';
     z1.className = 'headerr';
