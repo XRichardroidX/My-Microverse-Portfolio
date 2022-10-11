@@ -50,7 +50,8 @@ a {
   padding: 10%;
 }
 
-.mobile-headerr,.header-itemsr  {
+.mobile-headerr,
+.header-itemsr {
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -73,7 +74,9 @@ a {
   margin: 8px 20% 100% 5px;
 }
 
-.mobile-headerr,.header-itemsr,.headerr a {
+.mobile-headerr,
+.header-itemsr,
+.headerr a {
   visibility: visible;
   font-size: 3rem;
   font-family: 'Inter', sans-serif;
@@ -86,6 +89,14 @@ a {
 @media screen and (min-width: 768px) {
   .mobile-header {
     display: none;
+  }
+
+  .welcome {
+    text-decoration: none;
+    color: black;
+    height: 90px;
+    width: 28px;
+    font-size: 20px;
   }
 
   .mobile-headerr {
@@ -113,7 +124,6 @@ a {
   .nav-bar {
     display: flex;
     justify-content: space-around;
-
   }
 
   .header-items ul {
@@ -135,14 +145,6 @@ a {
   background-image: url("images/welcome-page-background.png");
   background-repeat: no-repeat;
   background-size: 100%;
-}
-
-.welcome {
-  text-decoration: none;
-  color: black;
-  height: 90px;
-  width: 28px;
-  font-size: 20px;
 }
 
 .welcome-message {
