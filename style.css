@@ -7,19 +7,20 @@ body {
   overflow-x: hidden;
 }
 
-.bd {
-
-}
-
 .pop-up-background-clear {
   display: none;
 }
 
 .pop-up-background {
-  margin: 18px;
+  margin: 20px 18% 20px 18%;
   border-radius: 10px;
-  padding: 10px;
+  padding: 15px;
   box-shadow: 0 4px 12px;
+  transition: 1s;
+}
+
+.pop-up-background:hover {
+  margin: 18px 15% 18px 15%;
 }
 
 .pop-up-background .click {
@@ -28,12 +29,28 @@ body {
   width: 10%;
   height: 10%;
   z-index: 2;
-  margin: 5% 10% 0 78%;
+  margin: 15px 10% 0 57%;
   background-color: transparent;
 }
 
 .pop-up-background .click-clear {
   display: none;
+}
+
+.buttons img {
+  margin: 25px;
+  width: 80%;
+  height: auto;
+}
+
+.buttons-clear img {
+  display: none;
+}
+
+.D-buttons img {
+  margin: 1%;
+  margin-top: -50px;
+  float: right;
 }
 
 .pop-up-background .pop-up-image img {
@@ -45,7 +62,19 @@ body {
   display: none;
 }
 
-.pop-up-background h2{
+h2 {
+  text-align: center;
+  color: #36b37e;
+  font-weight: 700;
+  padding-left: 0%;
+  transition: 0.5s;
+}
+
+h2:hover {
+  color: gold;
+}
+
+.pop-up-background h2 {
   color: black;
   font-size: 32px;
   line-height: 44px;
@@ -55,8 +84,14 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.pop-up-background ul{
-  width: 50%;
+ul {
+  list-style: none;
+}
+
+.pop-up-background ul {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .pop-up-background p {
@@ -69,31 +104,12 @@ body {
   justify-content: space-around;
 }
 
-.buttons img {
-  margin-top: 15px;
-  width: 140px;
-}
-
-.buttons-clear img{
-  display: none;
-}
-
 .pop-up-clear {
   display: none;
 }
+
 /* This is the Desktop version */
-.pop-up-background-clear {
-  display: none;
-}
-
-.pop-up-background {
-  margin: 18px;
-  border-radius: 10px;
-  padding: 10px;
-  box-shadow: 0 4px 12px;
-}
-
-.pop-up-background .D-click-clear img {
+.pop-up-background .D-click img {
   padding: 2%;
   float: right;
   height: 30px;
@@ -113,49 +129,13 @@ body {
   display: none;
 }
 
-.pop-up-background h2{
-  color: black;
-  font-size: 32px;
-  line-height: 44px;
-  width: 50%;
-  text-align: start;
-  margin: 45px 10px 10px 10px;
-  font-family: "Inter", sans-serif;
-}
-
-.pop-up-background ul{
-  width: 50%;
-}
-
-.pop-up-background p {
-  padding: 10px;
-  font-family: "Inter", sans-serif;
-}
-
-.pop-up-background .buttons {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.D-buttons img {
-  margin: -30px 15px 15px 15px;
-  width: 140px;
-}
-
 .D-buttons-clear {
   display: none;
 }
 
-.pop-up-clear {
-  display: none;
-}
 /* This is the end of Desktop version */
 .bdr {
   overflow-y: hidden;
-}
-
-ul {
-  list-style: none;
 }
 
 a {
@@ -323,18 +303,6 @@ h1 {
   to {
     margin-top: 0;
   }
-}
-
-h2 {
-  text-align: center;
-  color: #36b37e;
-  font-weight: 700;
-  padding-left: 0%;
-  transition: 0.5s;
-}
-
-h2:hover {
-  color: gold;
 }
 
 h3 {

@@ -100,7 +100,7 @@ function WindowPopUp(){
          mobilePopUpImage.className = 'pop-up-image-clear';
          DesktopPopUpImage.className = 'D-pop-up-image-clear';
 
-         mobileClick.className = 'click-clear';
+         mobileClick.className = 'click';
          desktopClick.className = 'D-click-clear';
       }
    }
