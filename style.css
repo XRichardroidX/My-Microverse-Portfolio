@@ -639,6 +639,10 @@ h3 {
   color: #36b37e;
 }
 
+.error-message {
+  color: red
+}
+
 @media screen and (min-width: 768px) {
   .technology {
     display: grid;
