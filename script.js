@@ -1,6 +1,5 @@
 const WorkSection = document.getElementById('main-projects');
 
-
 const JSObject = {
    "First": [
       'Ruby on rails', 
@@ -284,3 +283,15 @@ function WindowPopUp(ProjectType){
       }
    }
 }
+
+const contactForm = document.querySelector('.main-contact-form');
+const emailInput = document.querySelector('.email-address');
+const validationMessage = document.querySelector('.error-message');
+contactForm.addEventListener('submit', (event) => {
+  const strInput = emailInput.value;
+  if (/[A-Z]/.test(strInput)) {
+    validationMessage.innerHTML = 'Your email address should not contain upper case letters';
+    validationMessage.classList.add('shake');
+    event.preventDefault();
+  }
+});
