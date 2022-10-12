@@ -7,6 +7,11 @@ body {
   overflow-x: hidden;
 }
 
+.bd-blur {
+  background: #c1c7d0;
+  mix-blend-mode: multiply;
+}
+
 .pop-up-background-clear {
   display: none;
 }
@@ -16,6 +21,7 @@ body {
   border-radius: 10px;
   padding: 15px;
   box-shadow: 0 4px 12px;
+  background-color: white;
   transition: 1s;
 }
 
@@ -211,7 +217,7 @@ a {
 .headerr a {
   visibility: visible;
   font-size: 1.5rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #fff;
   color: rgb(0, 0, 0);
   height: 100%;
