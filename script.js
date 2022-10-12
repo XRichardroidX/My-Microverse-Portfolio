@@ -1,3 +1,139 @@
+const WorkSection = document.getElementById('main-projects');
+
+
+const JSObject = {
+   "First": [
+      'Ruby on rails', 
+      "CSS",
+       'JavaScript', 
+       'HTML'
+      ],
+   "Second": [
+      'C++', 
+      "CSS",
+       'Flutter', 
+       'HTML'
+      ],
+   "Third": [
+      'Rust', 
+      "SCSS",
+       'Go', 
+       'HTML'
+      ],
+   "Fourth": [
+      'Native Swift', 
+      "Swift",
+       'Kotlin', 
+       'Java'
+      ],
+   "Fifth": [
+      'Ruby on rails', 
+      "CSS",
+       'JavaScript', 
+       'HTML'
+      ],
+   "Sixth": [
+      'Assembly', 
+      "PHP",
+       'C', 
+       'C++'
+      ],
+   };
+
+function ProjectList() {
+   let card = document.createElement('div');
+   let button = document.getElementById('button');
+   
+   card.innerHTML = `<div class="project-1">
+   <div class="project">
+     <img
+       src="images/template-background.png"
+       alt="template-background"
+       width="70%"
+     />
+     <div class="information">
+       <h4 class="abc">Multi-Post Stories Gain+Glory</h4>
+       <ul class="skills">
+         <li class="skill">
+           <a href="#" class="skill-content">Ruby on rails</a>
+         </li>
+         <li class="skill">
+           <a href="#" class="skill-content">CSS</a>
+         </li>
+         <li class="skill">
+           <a href="#" class="skill-content">JavaScript</a>
+         </li>
+         <li class="skill">
+           <a href="#" class="skill-content">HTML</a>
+         </li>
+       </ul>
+       <div class="button" onclick="WindowPopUp('F1')">See Projects</div>
+     </div>
+   </div>
+ </div>
+ <div class="project-2">
+   <div class="project">
+     <img
+       src="images/template-background.png"
+       alt="template-background"
+       width="70%"
+     />
+     <div class="information">
+       <h4 class="abc">Multi-Post Stories Gain+Glory</h4>
+       <ul class="skills">
+         <li class="skill">
+           <a href="#" class="skill-content">Ruby on rails</a>
+         </li>
+         <li class="skill">
+           <a href="#" class="skill-content">CSS</a>
+         </li>
+         <li class="skill">
+           <a href="#" class="skill-content">JavaScript</a>
+         </li>
+         <li class="skill">
+           <a href="#" class="skill-content">HTML</a>
+         </li>
+       </ul>
+       <div class="button" onclick="WindowPopUp('F2')">See Projects</div>
+     </div>
+   </div>
+ </div>
+ <div class="project-3">
+   <div class="project">
+     <img
+       src="images/template-background.png"
+       alt="template-background"
+       width="70%"
+     />
+     <div class="information">
+       <h4 class="abc">Multi-Post Stories Gain+Glory</h4>
+       <ul class="skills">
+         <li class="skill">
+           <a href="#" class="skill-content">Ruby on rails</a>
+         </li>
+         <li class="skill">
+           <a href="#" class="skill-content">CSS</a>
+         </li>
+         <li class="skill">
+           <a href="#" class="skill-content">JavaScript</a>
+         </li>
+         <li class="skill">
+           <a href="#" class="skill-content">HTML</a>
+         </li>
+       </ul>
+       <div class="button" onclick="WindowPopUp('F3')">See Projects</div>
+     </div>
+   </div>
+ </div>`;
+
+ WorkSection.appendChild(card);
+}
+
+
+   ProjectList();
+
+
+
 function ResponsiveMenuForMobile(){
    let mobilehead = document.getElementById('my-mobile-head');
    let items = document.getElementById('my-header-items');
@@ -56,49 +192,10 @@ function WindowPopUp(ProjectType){
    let ThirdList = document.getElementById('L-content3');
    let FourthList = document.getElementById('L-content4');
 
-   let JSObject = {
-      "First": [
-         'Ruby on rails', 
-         "CSS",
-          'JavaScript', 
-          'HTML'
-         ],
-      "Second": [
-         'C++', 
-         "CSS",
-          'Flutter', 
-          'HTML'
-         ],
-      "Third": [
-         'Rust', 
-         "SCSS",
-          'Go', 
-          'HTML'
-         ],
-      "Fourth": [
-         'Native Swift', 
-         "Swift",
-          'Kotlin', 
-          'Java'
-         ],
-      "Fifth": [
-         'Ruby on rails', 
-         "CSS",
-          'JavaScript', 
-          'HTML'
-         ],
-      "Sixth": [
-         'Assembly', 
-         "PHP",
-          'C', 
-          'C++'
-         ],
-   };
 
    if (ProjectType === "F1"){
-      SecondList.innerHTMl = 'dfghj';
-      FirstList.innerHTML = JSObject.First[2];
-      
+      FirstList.innerHTML = JSObject.First[0];
+      SecondList.innerHTMl = JSObject.First[1];
       ThirdList.innerHTMl = JSObject.First[2];
       FourthList.innerHTMl = JSObject.First[3];
    }else if (ProjectType === "F2"){
