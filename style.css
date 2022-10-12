@@ -7,9 +7,14 @@ body {
   overflow-x: hidden;
 }
 
-.bd-blur {
+.sub-bd-blur {
+  padding: 18px;
+  margin: -18px;
   background: #c1c7d0;
   mix-blend-mode: multiply;
+  background-image: url("images/welcome-page-background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .pop-up-background-clear {
