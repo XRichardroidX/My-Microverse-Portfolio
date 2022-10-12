@@ -12,11 +12,8 @@
 
  ## Live Demo 
 
-<center><img title="Mobile" height="250" src="images/Mobile.png"></center>
-<center><img title="Desktop" height="250" src="images/Desktop.png"></center>
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-[Live Demo Link](https://xrichardroidx.github.io/My-Microverse-Portfolio/)
- -->
+<img title="Mobile" height="250" src="images/Mobile.png">
+<img title="Desktop" height="250" src="images/Desktop.png">
 
 <!-- ## Getting Started
 
@@ -48,12 +45,11 @@
 - Twitter: [@twitterhandle](https://twitter.com/RichardroiDX)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/richard-oguzie-ibeh-b4a975231/?originalSubdomain=ng)
 
-<!-- 👤 **Author2** -->
+👤 **Author1**
 
-<!-- - GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
-
+- GitHub: [@Alabi12](https://github.com/Alabi12)
+- Twitter: [@wolo_robert](https://twitter.com/wolo_robert)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/robert-o-alabi-49ba4b184)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
