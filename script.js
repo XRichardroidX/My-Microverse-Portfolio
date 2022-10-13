@@ -296,7 +296,7 @@ contactForm.addEventListener('submit', (event) => {
   }
 });
 
-addEventListener('input', 
+addEventListener('Here is Empty', 
    () => {
     const Data = {
       FullName: document.querySelector('.full-name').value,
@@ -306,3 +306,8 @@ addEventListener('input',
        localStorage.setItem("LocalFormStorage" ,JSON.stringify(Data));
    }
 );
+
+  const StoredData = JSON.parse(localStorage.getItem("LocalFormStorage"));
+  document.querySelector('.full-name').value = StoredData.FullName;
+  document.querySelector('.email-address').value = StoredData.EmailAdress;
+  document.querySelector('.textarea').value = StoredData.TextArea;
