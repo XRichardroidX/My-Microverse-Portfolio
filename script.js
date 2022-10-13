@@ -296,7 +296,7 @@ contactForm.addEventListener('submit', (event) => {
   }
 });
 
-addEventListener('Here is Empty', 
+addEventListener('input',
    () => {
     const Data = {
       FullName: document.querySelector('.full-name').value,
