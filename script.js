@@ -295,3 +295,14 @@ contactForm.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+
+addEventListener('input', 
+   () => {
+    const Data = {
+      FullName: document.querySelector('.full-name').value,
+      EmailAdress: document.querySelector('.email-address').value,
+      TextArea: document.querySelector('.textarea').value
+    };
+       localStorage.setItem("LocalFormStorage" ,JSON.stringify(Data));
+   }
+);
